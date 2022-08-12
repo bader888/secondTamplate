@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeps | Second Tamplate</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/afa131913e.js" crossorigin="anonymous"></script>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="htps://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Cairo:wght@200;300;900&family=Hubballi&family=Julius+Sans+One&family=Merriweather+Sans:wght@600&family=Moon+Dance&family=Open+Sans:wght@400;700&family=Oswald:wght@500&family=Outfit:wght@100&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,600&family=Red+Hat+Display:ital,wght@0,500;0,900;1,600&family=Sansita+Swashed:wght@300;400;500&family=Smooch+Sans:wght@300;600;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet"> -->
+</head>
+
+<body>
+    <header>
+        <div class="container position-relative">
+            <nav class="d-flex justify-content-between">
+                <div class="logo">
+                    <img src="imges/logo.png" alt="logo for webSite">
+                </div>
+                <ul id="navLink" class="">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="search">
+                    <input id="input_search" type="search"> <i class="fa fa-search"></i>
+                </div>
+                <div class="bars">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="imges/bg-1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="imges/bg-2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="imges/bg-3.jpg" style="width:100%">
+            </div>
+            <div class="arrow">
+                <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-solid fa-angle-left"
+                        aria-hidden="true"></i></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fa fa-solid fa-angle-right"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="bullets">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <div class="text">
+            <h1>HELLO WORLD! <br>
+                WE ARE KASPER,WE MAKE ART.</h1>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+                sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <article>
+            <h1 class="g_h">services</h1>
+            <p class="g_p">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                blandit aliquet elit, eget tincidunt.</p>
+        </article>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 ">
+                    <div class="content  position-relative">
+                        <i class="fa fa-camera"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                                sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                                a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                    <div class="content  position-relative">
+                        <i class="fa fa-podcast"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                                sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                                a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6  ">
+                    <div class="content  position-relative">
+                        <i class="fa fa-pen"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                                sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                                a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                    <div class="content  position-relative">
+                        <i class="fa fa-tv"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                                sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                                a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="design">
+        <div class="d_img">
+            <img class="img-fluid" src="imges/mobile.png" alt="">
+        </div>
+        <div class="d-desc">
+            <ul>
+                <h4>OUR DESIGNS COMES WITH...</h4>
+                <li> <i class="fa fa-desktop"></i> Responsive Design</li>
+                <li> <i class="fa fa-desktop"></i> Modern And Clean Design</li>
+                <li> <i class="fa fa-desktop"></i> Clean Code</li>
+                <li> <i class="fa fa-desktop"></i> Browser Friendly</li>
+            </ul>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <article>
+            <h1 class="g_h">portfolio</h1>
+            <p class="g_p">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                blandit aliquet elit, eget tincidunt.</p>
+        </article>
+        <div class="portfolio_imgs">
+            <div class="container-fluid">
+                <ul id="portfolio_list">
+                    <li class="active all">all</li>
+                    <li class="app">app</li>
+                    <li class="photogrphy">photogrphy</li>
+                    <li class="web">web</li>
+                    <li class="print">print</li>
+                </ul>
+                <div class="row">
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="app">
+                        <img class="img-fluid" src="imges/shuffle-01.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="app">
+                        <img class="img-fluid" src="imges/shuffle-02.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="app">
+                        <img class="img-fluid" src="imges/shuffle-03.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="web">
+                        <img class="img-fluid" src="imges/shuffle-04.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="web">
+                        <img class="img-fluid" src="imges/shuffle-05.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="photogrphy">
+                        <img class="img-fluid" src="imges/shuffle-06.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="photogrphy">
+                        <img class="img-fluid" src="imges/shuffle-07.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-12 col-lg-3 col-md-6 position-relative overflow-hidden" data-id="print">
+                        <img class="img-fluid" src="imges/shuffle-08.jpg" alt="">
+                        <div class="prot_text position-absolute">
+                            <h4>descrirtion</h4>
+                            <p>text here for imges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="video">
+        <div class="v-c">
+            <video autoplay loop muted>
+                <source type="video/mp4" src="imges/awesome-video.mp4">
+            </video>
+            <div class="video_text">
+                <h1 class="text-capitalize">super awsome video</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur</p>
+                <button class="btn-dark ">More</button>
+            </div>
+        </div>
+    </section> -->
+    <section class="about" id="about">
+        <div class="acout-container position-relative">
+            <article>
+                <h1 class="g_h">about</h1>
+                <p class="g_p">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                    blandit aliquet elit, eget tincidunt.</p>
+            </article>
+            <div class="about_img">
+                <img class="img-fluid" src="imges/about.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="states">
+        <div class="detils ">
+            <div class="container p-5">
+                <div class="row ali-i-c">
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                        <i class="fas fa-coffee fa-2 mb-3"></i>
+                        <h2>1,2454</h2>
+                        <p>coffee drunk</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                        <i class="fas fa-award fa-2 mb-3"></i>
+                        <h2>17</h2>
+                        <p>award</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                        <i class="fas fa-file fa-2 mb-3"></i>
+                        <h2>265</h2>
+                        <p>complete projects</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-capitalize">
+                        <i class="fas fa-mail-bulk fa-2 mb-3"></i>
+                        <h2>1,752</h2>
+                        <p>email send</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ourSkills">
+        <div class="container">
+            <div class="row">
+                <div class="testimals col-sm-12  col-lg-6">
+                    <h3 class="text-center">TESTIMONIALS</h3>
+                    <p class="text-center">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                        blandit aliquet elit, eget tincidunt.</p>
+                    <div class="testimalsContent">
+                        <div class="d-flex align-items-center mb-5" id="test_one">
+                            <img class="img-fluid" src="imges/skills-01.jpg" alt="">
+                            <div class="testmi_text">
+                                <p></p>
+                                <h5 class="text-capitalize"></h5>
+                            </div>
+                        </div>
+                        <div class="d-flex  align-items-center" id="test_two">
+                            <img class="img-fluid" src="imges/skills-02.jpg" alt="">
+                            <div class="testmi_text">
+                                <p></p>
+                                <h5 class="text-capitalize"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bullets">
+                        <span onclick=" changeContent(1)" class="active"></span>
+                        <span onclick=" changeContent(2)" class=""></span>
+                        <span onclick=" changeContent(3)" class=""></span>
+                    </div>
+                </div>
+                <div class="skills col-sm-12  col-lg-6">
+                    <h3 class="text-center">SKILLS</h3>
+                    <p class="text-center">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                        blandit aliquet elit, eget tincidunt.</p>
+                    <div class="skillsContent">
+                        <div class="box">
+                            <h5>html</h5>
+                            <div class="porg">
+                                <span data-progres="80%" class="html"></span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h5>css</h5>
+                            <div class="porg">
+                                <span data-progres="75%" class="css"></span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h5>javascript</h5>
+                            <div class="porg">
+                                <span data-progres="60%" class="js"></span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h5>php</h5>
+                            <div class="porg">
+                                <span data-progres="90%" class="php"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="quat">
+        <div class="quat_content">
+            <div class="container">
+                <q>ACCUMSAN ID CURABITUR ET PORTITOR MAURIS BLANDIT DOLOR LOREM SOME
+                    EST OUR DONEC STIN LORTIOS</q>
+                <p>john doe</p>
+            </div>
+        </div>
+    </section>
+    <section class="prices" id="pricing">
+        <article>
+            <h1 class="g_h">pricing</h1>
+            <p class="g_p">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                blandit aliquet elit, eget tincidunt.</p>
+        </article>
+        <div class="container">
+            <div class="row">
+                <div class="price_box col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                    <div class="head">
+                        <h6>basic</h6>
+                        <p><span>$</span> 29 <span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li>Feature N0 1</li>
+                        <li>extra feature</li>
+                        <li>Feature N0 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="price-btn">
+                        <button class="btn-dark">buy now</button>
+                    </div>
+                </div>
+                <div class="price_box col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                    <div class="head">
+                        <h6>PREMIUM</h6>
+                        <p><span>$</span> 19 <span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li>Feature N0 1</li>
+                        <li>extra feature</li>
+                        <li>Feature N0 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="price-btn">
+                        <button class="btn-dark">buy now</button>
+                    </div>
+                </div>
+                <div class="price_box col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                    <div class="head">
+                        <h6>pro</h6>
+                        <p><span>$</span> 39 <span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li>Feature N0 1</li>
+                        <li>extra feature</li>
+                        <li>Feature N0 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="price-btn">
+                        <button class="btn-dark">buy now</button>
+                    </div>
+                </div>
+                <div class="price_box col-sm-12 col-md-6 col-lg-3 text-center text-capitalize ">
+                    <div class="head">
+                        <h6>PLATINUM</h6>
+                        <p><span>$</span> 49 <span>/mo</span></p>
+                    </div>
+                    <ul>
+                        <li>Feature N0 1</li>
+                        <li>extra feature</li>
+                        <li>Feature N0 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="price-btn">
+                        <button class="btn-dark">buy now</button>
+                    </div>
+                </div>
+                <div class="price_root text-center pt-5 pb-5">
+                    <h5 class="mb-4 text-capitalize">Contact us if you have special request</h5>
+                    <button>contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="email">
+        <div class="email_content">
+            <div class="container position-relative">
+                <div class="row gap-sm-5">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <form action="#">
+                            <i class="fa fa-mail-bulk"></i>
+                            <input placeholder="your email" type="text" name="mail">
+                            <button>subscrip</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan
+                            dit aliquet elit, eget tincidunt.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="contact" id="contact">
+        <article>
+            <h1 class="g_h">contact</h1>
+            <p class="g_p">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                blandit aliquet elit, eget tincidunt.</p>
+        </article>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <form action="#">
+                        <input placeholder="your name" type="text" name="" id="">
+                        <input placeholder="your email" type="email" name="" id="">
+                        <textarea placeholder="your message" name="#" id="#"></textarea>
+                    </form>
+                    <button>send message</button>
+                </div>
+                <div class="form_inputs  col-sm-12 col-md-4 col-lg-4">
+                    <div class="phone">
+                        <h6>GET IN TOUCH</h6>
+                        +00 123.456.789 <br>
+                        +00 123.456.789<br>
+                    </div>
+                    <address>
+                        <h6>ADDRESS</h6>
+                        Awesome Address 17 <br>
+                        New York,NYC <br>
+                        123-4567-890 <br>
+                        USA<br>
+                    </address>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container d-flex flex-column gap-4 align-items-center justify-content-center">
+            <div>
+                <img src="imges/logo.png" alt="logo for footer">
+            </div>
+            <div>
+                <h3>we are social</h3>
+                <ul>
+                    <li><a href="#"><i class="fa fa-brands fa-facebook" aria-hidden="true"></i></i></a></li>
+                    <li><a href="#"><i class=" fa fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class=" fa fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class=" fa fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="copyRight">
+                <p>© 2014 - <span>Kasper</span> All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <body>
+        <script src=" script.js"></script>
+    </body>
+
+</html>
